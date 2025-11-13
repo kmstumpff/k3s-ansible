@@ -29,6 +29,8 @@
       become: true
     - role: download
       become: true
+    - role: apt
+      become: true
     - role: raspberrypi
       become: true
     - role: k3s_custom_registries
